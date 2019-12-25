@@ -1,0 +1,163 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+
+.container{
+	width: 1600px;
+	height: 453px;
+	background-color: #f7f7f7;
+	position: relative;
+	margin: 0 auto;
+}
+/* 第一块左侧部分 */
+.leftpart{
+	width: 980px;
+	height: 452px;
+	float: left;
+	background-color: #f3f3f3;
+	margin-left: 130px;
+}
+.box{
+	top: 20px;
+	width: 325px;
+	height: 269px;
+	position: relative;
+	overflow: hidden;
+}
+.slider{
+	top: 10px;
+	width: 2275px;
+	position: absolute;
+	left: -325px;
+}
+.slide{
+	width: 325px;
+	overflow: hidden;
+	float: left;
+}
+.slide p{
+	position: relative;
+	bottom: 50px;
+	color: white;
+	text-align: center;
+}
+.box>span{
+	display: block;
+	width: 30px;
+	height: 50px;
+	text-align: center;
+	cursor: pointer;
+	top: 100px;
+	line-height: 50px;
+	background: rgb(255, 0, 0);
+	font-size: 30px;
+	position: absolute;
+	opacity: 0;
+}
+#left{
+	left: 10px;
+}
+#right{
+	right: 10px;
+}
+.s{
+	position: absolute;
+	left: 80px;
+	bottom: 20px;
+}
+.s>li{
+	float: left;
+	width: 20px;
+	height: 20px;
+	background: #ccc;
+	cursor: pointer;
+	margin: 0 5px;
+	border-radius: 50%;
+	text-align: center;
+}
+.s .active{
+	background: red;
+	color: white;
+}
+.list1{
+	position: relative;
+	width: 630px;
+	height: 123px;
+	left: 370px;
+	top: -259px;
+}
+.list1 li{
+	display: inline-block;
+	width: 175px;
+	height: 123px;
+	padding-left: 5px;
+	padding-top:20px; 
+}
+.list2{
+	position: relative;
+	width: 630px;
+	padding-top: 5px;
+	height: 123px;
+	left: 370px;
+	top: -259px;
+}
+.list2 li{
+	display: inline-block;
+	width: 175px;
+	height: 123px;
+	padding-left: 5px;
+	padding-top:20px; 
+}
+.list3{
+	position: relative;
+	width: 980px;
+	padding-top: 40px;
+	height: 123px;
+	top: -259px;
+}
+.list3 li{
+	display: inline-block;
+	width: 175px;
+	height: 123px;
+	padding-left: 5px;
+}
+.list1 a:hover{
+	color:#04b872;
+}
+.list2 a:hover{
+	color:#04b872;
+}
+.list3 a:hover{
+	color:#04b872;
+}
+/* 第一块右侧部分 */
+.rightpart{
+	width: 300px;
+	height: 449px;
+	position: relative;
+	margin-top: 15px;
+	margin-left: 1200px;
+	border-top: 3px solid red;
+	background-color: white;
+}
+.toppart{
+	margin: 5px 70px 10px 70px;
+}
+.rightpart > ul > li{
+	display: block;
+	margin: 13px;
+	font-size: 20px;
+}
+.rightpart > ul > li > img{
+	display: block;
+	width: 25px;
+	height: 25px;
+	float: left;
+}
