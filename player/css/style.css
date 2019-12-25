@@ -1,0 +1,211 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.mainpart{
+	background: #1f2228;
+	width: 1600px;
+	height:700px;
+	margin: 0 auto;
+}
+/* 视频播放部分 */
+.playing{
+	/* background: red; */
+	width: 1000px;
+	height: 700px;
+	float: left;
+}
+.video{		/* 播放条 */
+	display: block;
+	width:900px;
+	height:650px;
+	margin:0 0 0 75px;
+	/* background-color: blue; */
+}
+.info{
+	width: 350px;
+	height: 610px;
+	margin: 40px 0 0 0;
+	float: left;
+	background: #1f1f1f;
+}
+.intro{
+	width: 300px;
+	height: 600px;
+	margin: 0 auto;
+}
+.intro > h1{
+	margin: 0 50px 0 50px;
+	color: #979ca7;
+}
+/* 简介部分 */
+.sideslip{
+    width: 400px;
+    height: 1000px;
+    float: right;
+}
+.info img{
+	float: left;
+
+}
+.info li{
+	width: 250px;
+	height: 20px;
+	margin: 5px 0 0 20px;
+	color: #979ca7;
+}
+.emmm{
+	width: 250px;
+	height: 125px;
+	float: left;
+}
+.zhuyan{
+	float: left;
+	width: 300px;
+	margin-top: 20px;
+	color: #979ca7;
+}
+.jianjie{
+	float: left;
+	width: 300px;
+	margin-top: 10px;
+	color: #979ca7;
+}
+
+.center{
+	width: 1600px;
+	height: 750px;
+	margin: 0 auto;
+}
+.center > h1{
+	width: 1600px;
+	display: block;
+    float: left;
+    margin-left: 50px;
+}
+.likePic{
+	width: 1600px;
+	margin: 0 auto;
+}
+.likePic > a > li{
+    width: 180px;
+    height: 350px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+.likePic img{
+    width: 400px;
+    height: 270px;
+}
+.likePic h5{
+    float: left;
+    color: #ccc;
+}
+.likePic h4{
+    color: black;
+}
+/* 评论部分 */
+.comment{
+	width: 1600px;
+	margin:0 auto;
+}
+.comment > h1{
+	display: block;
+	margin: 30px 0 0 30px;
+}
+.userAvatar > img{
+    width: 100px; 
+   	height: 100px; 
+    border-radius: 50px; 
+    margin: 10px 0 0 50px;
+   	display: block;
+   	float: left;
+}
+.infos{
+	width: 1000px;
+	margin: 10px 0 0 175px;
+	font-size: 27px;
+}
+.infos > span{
+	margin-left: 10px;
+	font-size: 17px;
+}
+.content{
+	width: 1000px;
+	height: 70px;
+	margin: 10px 0 0 175px;
+	font-size: 22px;
+}
+.likes{
+	width: 1000px;
+	margin-left: 350px;
+}
+.firstone{
+	float: left;
+	margin-left: 660px;
+	margin-right: 10px;
+}
+.likes > div > img{
+	width: 20px;
+	height: 20px;
+	margin: 3px 0 0 2px;
+}
+.others{
+	width: 1000px;
+	margin-left: 175px;
+	font-size: 17px;
+}
+.n1{
+	background-color: #f7f7f7;
+	opacity: 0.8;
+	border-bottom: 1px solid red;
+}
+.n2{
+	background-color: #f7f7f7;
+	opacity: 0.8;
+	border-bottom: 1px solid red;
+}
+.n3{
+	background-color: #f7f7f7;
+	opacity: 0.8;
+	border-bottom: 1px solid red;
+}
+.n4{
+	margin-bottom: 20px;
+	padding: 10px;
+	font-size: 17px;
+	background-color: #f7f7f7;
+}
+.n4 > a{
+	color: black;
+}
+.n4 > a:hover{
+	color: blue;
+}
+.np1{
+	float: left;
+	margin: 0 10px 0 870px;
+}
+.toppart{
+	padding-top: 5px;
+	padding-left: 10px;
+}
+.underpart{
+	margin-top: 5px;
+}
+.underpart > div > img{
+	width: 17px;
+	height: 15px;
+	margin: 5px 0 0 2px;
+}
+.underpart > div > span{
+	font-size: 17px;
+}

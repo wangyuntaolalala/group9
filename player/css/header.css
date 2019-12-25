@@ -1,0 +1,100 @@
+/* header部分 */
+.header{
+	width: 1600px;
+	height: 150px;
+	margin: 0 auto;
+}
+.main{
+	height: 100px;
+	margin: 0 auto;
+}
+.main > img{
+	display: block;
+	float: left;
+	width: 200px;
+	height: 50px;
+	margin-left: 300px;
+	margin-top: 50px;
+}
+form > div{
+	float: left;
+	width: 700px;
+	height: 38px;
+	border: 3px #f83838 solid;
+	margin: 40px 0 0 100px;
+}
+form > div > input{
+	float: left;
+	width: 596px;
+	height: 38px;
+	border:0px;
+	font-size: 17px;
+	text-indent: 1em;
+}
+form > div > button{
+	display: block;
+	float: right;
+	list-style: none;
+	text-decoration: none;
+
+}
+form > div > button > a{
+	display: block;
+	width: 100px;
+	height: 34px;
+	font-size: 15px;
+	text-align: center;
+	line-height: 38px;
+	background-color: #f83838;
+	color: #fff;
+	float: right;
+}
+.under{
+	height: 50px;
+	margin: 0 auto;
+}
+.under > ul > li > a{
+	float: left;
+	width: 90px;
+	height: 33px;
+	line-height: 33px;
+	font-size: 12px;
+	text-align: center;
+	margin: 5px 5px 0 5px;
+}
+.first{
+	float: left;
+	width: 40px;
+	height: 33px;
+	margin-left: 650px;
+	margin-top: 13px;
+	font-size: 12px;
+}
+.firstchild{
+	margin-left: 450px;
+}
+/* 导航部分 */
+.topNav{
+	height: 40px;
+	background: black;
+}
+.nav{
+	width: 1600px;
+	height: 40px;
+	margin: 0 auto;
+}
+.nav li{
+	float: left;
+	height: 40px;
+	width: 250px;
+	line-height: 40px;
+	text-align: center;
+	margin: 0 20px 0 45px;
+	cursor: pointer;
+}
+.nav li a{
+	color: white;
+}
+.nav li:hover{
+	background: red;
+}
