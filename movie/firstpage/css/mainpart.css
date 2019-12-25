@@ -1,0 +1,241 @@
+/*第三块*/
+.div0{
+	width: 1600px;
+	height: 900px;
+	margin: 0 auto;
+}
+.div1{
+	width: 1250px;
+	height:52px;
+	background-color:;
+	border-bottom:2px solid #ccc;
+	float: left;
+}
+.div2{
+	width: 300px;
+    height: 52px;
+    background-color:#fff;
+    float: right;
+    border-bottom:2px solid #ccc;
+}
+.div2 p{
+   font-size: 20px;
+   float: left;
+   margin-top: 20px;
+}
+.div2 li{
+	float:left;
+	margin-left:25px;
+	margin-top: 24px;
+}
+.div2 li:hover{
+    color:green;
+}
+.small1 a:hover{
+ 	color:green;
+}
+.small2 a:hover{
+	color:green;
+}
+.small3 a:hover{
+	color:green;
+}
+.div3{
+	width: 1250px;
+	height: 800px;
+	float: left;
+}
+.div4{
+	float: right;
+	width: 300px;
+	height: 800px;
+	overflow: hidden;
+}
+.div4 img{
+	width: 300px;
+	height: 150px;
+}
+.div5{
+	width:900px;
+	height:400px;
+	position:relative;
+	margin-left: 0px;
+}
+.div5 a{
+	color: black;
+}
+.small1{
+	width:300px;
+	height:480px;
+	float: left;
+}
+.small2{
+	width:300px;
+	height:480px;
+	float: left;
+}
+.small3{
+	width:300px;
+	height:480px;
+	float: left;
+}
+.left li{
+	margin-top: 20px;
+}
+.center li{
+	margin-top: 20px;
+}
+.right li{
+	margin-top: 20px;
+}
+.left p{
+	float: right;
+	color: orange;
+}
+.center p{
+	float: right;
+	color: orange;	    
+}
+.right p{
+	float: right;
+	color: orange;
+}
+.smallest{
+	width: 20px;
+	height: 20px;
+	background-color: green;
+	float: left;
+	text-align: center;
+	color: white;
+	margin-right: 10px;
+}
+.smallest0{
+	width: 20px;
+	height: 20px;
+	background-color:#ccc;
+	float: left;
+	text-align: center;
+	color: white;
+	margin-right: 10px;
+}
+.pic li{
+	width: 200px;
+	height: 400px;
+	background-color: black;
+	float: left;
+	overflow: hidden;
+	margin-right: 50px;
+	background-color: white;
+	margin-top: 10px;
+	position: relative;
+}
+.pic img{
+	width: 200px;
+	height: 370px;
+	position:relative;
+}
+.pic a{
+	color: black;
+}
+.pic a:hover{
+    color:green;
+}
+.pic1:hover #circle{
+    display: block;
+}
+.pic2:hover #circle{
+    display: block;
+}
+.pic3:hover #circle{
+    display: block;
+}
+.pic4:hover #circle{
+   	display: block;
+}
+.pic5:hover #circle{
+    display: block;
+}
+.pic6:hover #circle{
+    display: block;
+}
+.pic7:hover #circle{
+    display: block;
+}
+.pic8:hover #circle{
+    display: block;
+}
+.pic9:hover #circle{
+    display: block;
+}
+.pic10:hover #circle{
+    display: block;
+}
+#circle{
+    width: 80px; 
+   	height: 80px; 
+    border-radius: 50px; 
+    position: absolute;
+   	top: 130px;
+    left: 50px;
+    background-color:rgba(0, 0, 0, 0.6);
+   	display: none;
+}
+.triangle{
+	border-top: 15px solid transparent; 
+	border-left: 25px solid white; 
+	border-bottom: 15px solid transparent; 
+	position: absolute;
+	top: 25px;
+	left: 30px;
+}
+.picdiv1{
+    width: 200px;
+    height:40px;
+    background-color: black;
+    position: absolute;
+    bottom:29px;
+    line-height:40px;
+    color: white;
+    padding-left:10px;
+    background-color:rgba(0, 0, 0, 0.6);
+    font-size:15px;
+}
+.picdiv1 p{
+	float: right;
+    color: orange;
+    margin-right: 15px;
+    font-size: 20px;
+}
+.text li{
+	float: left;
+	list-style: none;
+}
+.p1{
+	font-size: 20px;
+    margin-top: 20px;
+    margin-right: 40px; 
+    color: green;
+    padding-bottom: 5px;
+    border-bottom:2px solid green;
+}
+.p2{
+	margin-top: 27px;
+}
+.p3{
+    margin-top: 27px;
+    color: green;
+}
+.p4{
+	margin-left:10px;
+	font-size: 13px;
+	color: #ccc;
+	margin-top: 28px;
+}
+.p5{
+	margin-top: 29px;
+}
+.p5 a{
+	margin-left:10px;
+	font-size: 13px;
+	color: black;
+}

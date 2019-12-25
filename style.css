@@ -1,0 +1,92 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+/* 背景图部分 */
+#div1{
+	background: url('b1.png');
+	width: 1600px;
+	height: 1600px;
+	margin: 0 auto;
+	position: absolute;
+}
+#div1 div{
+	width: 20px;
+	height: 20px;
+	float: left;
+	opacity: 0.9;
+	background: #ccc;
+	box-sizing: border-box;
+}
+/* 登录部分 */
+.logining{
+			width: 300px;
+			height: 400px;
+			padding: 0 20px;
+			border: 2px solid #1688ea;
+			/* margin: 50px auto; */
+			position: absolute;
+			top: 120px;
+			left: 730px;
+		}
+		.tit{
+			margin-top: 5px;
+			margin-bottom: 30px;
+		}
+		.tit :last-child{
+			color: #1688ea;
+		}
+		.brand{
+			color: #1688ea;
+			font-size: 18px;
+			margin-right: 20px;
+		}
+		.inp{
+			width: 100%;
+			height: 40px;
+			text-indent: 8px;
+		}
+		.notice{
+			height: 30px;
+			line-height: 30px;
+			font-size: 12px;
+			color: #1688ea;
+		}
+
+		.code{
+			width: 60%;
+		}
+		.getCode{
+			width: 35%;
+			height: 44px;
+			float: right;
+			border: none;
+			background-color: #eee;
+			color: #1688ea;
+
+		}
+		.codeImg{
+			height: 40px;
+		}
+		.btn{
+			background: #1688ea;
+			width: 100%;
+			height: 40px;
+			border: none;
+			margin-top: 8px;
+			color: #fff;
+			border-radius: 3px;
+		}
+
+		
+		.bg img{
+			width: 1920px;
+			height: 800px;
+			text-align: center;
+		}

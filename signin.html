@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>login</title>
+	<script src="animate.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body style="position:relative;overflow: hidden;background-color: black">
+	<div class="bg" id="bg">
+		<div style="display: block;opacity: 1"><img src="images/banner4.jpg"></div>
+		<div style="display: none;opacity: 0"><img src="images/banner1.png"></div>
+		<div style="display: none;opacity: 0"><img src="images/banner8.jpg"></div>
+		<div style="display: none;opacity: 0"><img src="images/banner9.jpg"></div>
+		<div style="display: none;opacity: 0"><img src="images/banner5.jpg"></div>
+	</div>
+
+
+	<div class="logining">
+		<p class="tit">
+			<span class="brand">Web开发二</span>
+			<span>用户登录</span>
+		</p>
+
+		<input id="ipt1" class="inp" type="text" placeholder="用户名">
+		<p id="pro1" class="notice"></p>
+
+		<input id="ipt2" class="inp" type="password" placeholder="密码">
+		<p id="pro2" class="notice"></p>
+
+		<div>
+			<input id="ipt3" class="inp code" type="text" placeholder="验证码">
+			<button id="getCode" class="getCode">获取验证码</button>
+		</div>
+		<div id="codeImg" class="codeImg">
+
+		</div>
+		<p id="pro3" class="notice"></p>
+
+		<input type="checkbox" checked ><span style="color:#1688ea">下次自动登录</span>
+		<button id="log" class="btn">登录</button>
+	</div>
+	<script>
+		var bg=document.getElementById("bg").children;
+		var imgIndex=0;
+		var mark;
+		mark=setInterval(next,3000);
+
+		function next(){
+		
+		bg[(imgIndex+bg.length)%bg.length].style.display="none";
+		animate(bg[(imgIndex+bg.length)%bg.length],{opacity:0});	
+		bg[(imgIndex+1+bg.length)%bg.length].style.display="block";
+		animate(bg[(imgIndex+1+bg.length)%bg.length],{opacity:100});
+		
+		imgIndex=(imgIndex+bg.length+1)%bg.length;
+		console.log(imgIndex);
+	}
+
+
+		var ipt1=document.getElementById("ipt1");
+		var pro1=document.getElementById("pro1");
+		var ipt2=document.getElementById("ipt2");
+		var pro2=document.getElementById("pro2");
+		ipt1.onclick=function(){
+			pro1.innerHTML="请输入4-10位用户名";
+		}
+		ipt1.onblur=function(){
+			pro1.innerHTML="";
+		}
+		ipt2.onclick=function(){
+			pro2.innerHTML="请输入6-12位密码";
+		}
+		ipt2.onblur=function(){
+			pro2.innerHTML="";
+		}
+
+		var getCode=document.getElementById("getCode");
+		var codeImg=document.getElementById("codeImg");
+		//为了不一直加图片，把下面两行加在事件的外面即可
+		var img=document.createElement("img");
+		codeImg.appendChild(img);
+		getCode.onclick=function(){			
+			var imgs=[
+				"image/zAZfB.jpg",
+				"image/ZEhUN.jpg",
+				"image/zFC9H.jpg",
+				"image/zhWY9.jpg",
+				"image/Zin4c.jpg",
+				"image/ZITGj.jpg",
+				"image/zJ6iV.jpg",
+				"image/zjsKP.jpg",
+				"image/ZKc9S.jpg",
+				"image/zKDXU.jpg",
+			];
+			var index=parseInt(Math.random()*10); 
+			var randomImg=imgs[index];
+			img.setAttribute("src",randomImg);   //注意src外面的引号
+			img.setAttribute("title",randomImg.slice(6,11));
+		}
+
+		log.onclick=function(){
+			// value的获取要写在事件里面，不然是空的
+		var userName=document.getElementById("ipt1").value;
+		var log=document.getElementById("log");
+		var ipt3=document.getElementById("ipt3");
+		console.log(userName);
+		var passWord=document.getElementById("ipt2").value;
+		console.log(passWord);
+		var code=document.getElementById("ipt3").value;
+		console.log(code);
+		console.log(img.title);
+
+
+			if(userName.length>10 || userName.length<4)
+				pro1.innerHTML="用户名位数不对";
+			else if(passWord.length>16 || passWord.length<6)
+				pro2.innerHTML="密码位数不对";
+			else if(code!=img.title)
+				pro3.innerHTML="验证码错误";
+			else
+				window.location.href="movie/movie.html";
+		}
+
+
+	</script>
+</body>
+</html>

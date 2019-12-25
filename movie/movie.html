@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>电影</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/header.css">
+	<link rel="stylesheet" type="text/css" href="css/mainpart.css">
+	<link rel="stylesheet" type="text/css" href="css/bottom.css">
+	<script src="animate.js"></script>
+</head>
+<body>
+	<div class="header">
+		<div class="main">
+			<img src="img/logo.png" style="width: 50px;">
+			<form>
+				<div>
+					<input type="text" value="请输入关键词!" id="content">
+					<button id="btn"><a href="#">搜索</a></button>
+				</div>
+			</form>
+		</div>
+		<div class="under">
+			<ul>
+				<li class="first"><p>热搜：</p></li>
+				<li class="firstchild"><a href="#" target="blank">庆余年</a></li>
+				<li><a href="#" target="blank">潮流合伙人</a></li>
+				<li><a href="#" target="blank">鹤唳华亭</a></li>
+				<li><a href="#" target="blank">剑王朝</a></li>
+				<li><a href="#" target="blank">平原上的夏洛克</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- 第一块 -->
+	<div class="topNav">
+		<ul class="nav">
+			<li id="firstpage"><a href="#">首页</a></li>
+			<li id="movie"><a href="#">电影</a></li>
+			<li><a href="#">电视剧</a></li>
+			<li id="variety"><a href="#">综艺</a></li>
+			<li><a href="#">动漫</a></li>
+		</ul>
+	</div>
+
+    <div class="box">
+        <div class="slider" id="slider">
+            <div class="slide" style="display: block;opacity: 1"><a href="#"><img src="image/banner1.png"></a></div>
+            <div class="slide" style="display: none;opacity: 0"><a href="#"><img src="image/banner2.jpg"></a></div>
+            <div class="slide" style="display: none;opacity: 0"><a href="#"><img src="image/banner3.jpg"></a></div>
+            <div class="slide" style="display: none;opacity: 0"><a href="#"><img src="image/banner4.jpg"></a></div>
+            <div class="slide" style="display: none;opacity: 0"><a href="#"><img src="image/banner5.jpg"></a></div>
+            <div class="slide" style="display: none;opacity: 0"><a href="#"><img src="image/banner6.jpg"></a></div>
+            <div class="slide" style="display: none;opacity: 0"><a href="#"><img src="image/banner7.jpg"></a></div>
+            <div class="slide" style="display: none;opacity: 0"><a href="#"><img src="image/banner8.jpg"></a></div>
+            <div class="slide" style="display: none;opacity: 0"><a href="#"><img src="image/banner9.jpg"></a></div>
+        </div>
+
+        <div class="filmsnav">
+			<div id="left">《</div>
+			<div id="navList">
+	            <img style="margin-left: 100px"  src="image/banner1.png">
+	            <img src="image/banner2.jpg">
+	            <img src="image/banner3.jpg">
+	            <img src="image/banner4.jpg">
+	            <img src="image/banner5.jpg">
+	            <img src="image/banner6.jpg">
+	            <img src="image/banner7.jpg">
+	            <img src="image/banner8.jpg">
+	            <img src="image/banner9.jpg">
+            </div>
+            <div id="right">》</div>
+        </div>
+    </div>
+	<!-- 第二块 -->
+	<div class="minBox">
+        <div class="minbox1">
+            <h3 class="title">
+                <i></i>特色推荐
+            </h3>
+            <ul class="List">
+                <li><a href="#">男性影院</a></li>
+                <li><a href="#">好莱坞大片</a></li>
+                <li><a href="#">科幻巨作</a></li>
+                <li><a href="#">女性影院</a></li>
+                <li><a href="#">宫崎骏动画</a></li>
+                <li><a href="#">经典港片</a></li>
+            </ul>
+        </div>
+        <div class="minbox2">
+            <h3 class="title">
+                <i></i>类型
+            </h3>
+            <ul class="List1">
+                <li><a href="#">喜剧</a></li>
+                <li><a href="#">动作</a></li>
+                <li><a href="#">爱情</a></li>
+                <li><a href="#">恐怖</a></li>
+                <li><a href="#">科幻</a></li>
+                <li><a href="#">剧情</a></li>
+                <li><a href="#">战争</a></li>
+                <li><a href="#">悬疑</a></li>
+                <li><a href="#">武侠</a></li>
+                <li><a href="#">动画</a></li>
+                <li><a href="#">灾难</a></li>
+                <li><a href="#">全部</a></li>
+            </ul>
+        </div>
+        <div class="minbox3">
+            <h3 class="title">
+                <i></i>地区
+            </h3>
+            <ul class="List1">
+                <li><a href="#">内地</a></li>
+                <li><a href="#">香港</a></li>
+                <li><a href="#">台湾</a></li>
+                <li><a href="#">美国</a></li>
+                <li><a href="#">韩国</a></li>
+                <li><a href="#">日本</a></li>
+                <li><a href="#">印度</a></li>
+                <li><a href="#">泰国</a></li>
+                <li><a href="#">全部</a></li>
+            </ul>
+        </div>
+        <div class="minbox4">
+            <h3 class="title">
+                <i></i>明星
+            </h3>
+            <ul class="List2">
+                <li><a href="#">周星驰</a></li>
+                <li><a href="#">成龙</a></li>
+                <li><a href="#">李连杰</a></li>
+                <li><a href="#">周润发</a></li>
+                <li><a href="#">林正英</a></li>
+                <li><a href="#">刘德华</a></li>
+                <li><a href="#">甄子丹</a></li>
+                <li><a href="#">黄渤</a></li>
+            </ul>
+        </div>
+        <div class="minbox5">
+            <h3 class="title">
+                <i></i>年代
+            </h3>
+            <ul class="List1">
+                <li><a href="#">2017</a></li>
+                <li><a href="#">2016</a></li>
+                <li><a href="#">2015</a></li>
+                <li><a href="#">2014</a></li>
+                <li><a href="#">2013</a></li>
+                <li><a href="#">2012</a></li>
+                <li><a href="#">全部</a></li>
+
+            </ul>
+        </div>
+    </div>
+    <!-- 第三块 -->
+    <div class="div0">
+		<div class="div1">
+			<ul class="text">
+				<li class="p1"><img src="img/a15.png">热播推荐</li>
+				<li class="p2">正在热播</li>
+    			<li class="p3">140553</li>
+    			<li class="p2">部</li>
+    			<li class="p4">|</li>
+    			<li class="p5"><a href="">更多></a></li>
+    		</ul>
+		</div>
+		<div class="div2">
+			<p>本周票房榜</p>
+			<ul>
+				<li id="text1">内地</li>
+				<li id="text2">北美</li>
+				<li id="text3">香港</li>
+			</ul>
+		</div>
+		<div class="div3">
+			<ul class="pic">
+				<li class="pic1">
+					<a href="https://v.sogou.com/movie/mzuwy3k7gezdamjsgiyqtvwqxh5lx6vtuq.html"><img src="img/p1.png">
+					<div class="circle1" id="circle"><div class="triangle"></div></div>
+					<div class="picdiv1">111分钟<p>6.9</p></div>
+					中国机长</a>
+				</li>
+				<li class="pic2">
+					<a href="https://v.sogou.com/movie/mzuwy3k7geytsnjsga3qtsozytvllrge4m.html"><img src="img/p2.png">
+					<div class="circle2" id="circle"><div class="triangle"></div></div>
+					<div class="picdiv1">135分钟<P>8.4</P></div>
+					少年的你</a>
+				</li>
+				<li class="pic3">
+					<a href=""><img src="img/p3.png">
+					<div class="circle3" id="circle"><div class="triangle"></div></div>
+					<div class="picdiv1">155分钟<p>7.9</p></div>
+					我和我的祖国</a>
+				</li>
+				<li class="pic4">
+					<a href=""><img src="img/p4.png">
+					<div class="circle4" id="circle"><div class="triangle"></div></div>
+					<div class="picdiv1">110分钟<p>8.5</p></div>
+					哪吒之魔童降世</a>
+				</li>
+				<li class="pic5">
+					<a href=""><img src="img/p5.png">
+					<div class="circle5" id="circle"><div class="triangle"></div></div>
+					<div class="picdiv1">138分钟<p>7.8</p></div>
+					决战中途岛</a>
+				</li>
+				<li class="pic6">
+					<a href=""><img src="img/p6.png">
+					<div class="circle6" id="circle"><div class="triangle"></div></div>
+					<div class="picdiv1">104分钟<p>7.3</p></div>
+					冰雪奇缘2</a>
+				</li>
+				<li class="pic7">
+					<a href=""><img src="img/p7.png">
+					<div class="circle7" id="circle"><div class="triangle"></div></div>
+					<div class="picdiv1">137分钟<p>6.3</p></div>
+					速度与激情特别行动</a>
+				</li>
+				<li class="pic8">
+					<a href=""><img src="img/p8.png">
+					<div class="circle8" id="circle"><div class="triangle"></div></div>
+					<div class="picdiv1">127分钟<p>7.8</p></div>
+					蜘蛛侠英雄远征</a>
+				</li>
+				<li class="pic9">
+					<a href=""><img src="img/p9.png">
+					<div class="circle9" id="circle"><div class="triangle"></div></div>
+					<div class="picdiv1">110分钟<p>5.9</p></div>
+					名侦探柯南绀青之拳</a>
+				</li>
+				<li class="pic10">
+					<a href=""><img src="img/p10.png">
+					<div class="circle10" id="circle"><div class="triangle"></div></div>
+					<div class="picdiv1">90分钟<p>3.6</p></div>
+					大蛇2</a>
+				</li>
+			</ul>
+		</div>
+		<div class="div4">
+			<div class="div5" id="div5">
+				<div class="small1" id="small1">
+					<ul class="left">		
+						<li><a href=""><div class="smallest">1</div>误杀<p>21561万</p></a></li>
+						<li><a href=""><div class="smallest">2</div>天·火<p>13819万</p></a></li>	
+						<li><a href=""><div class="smallest">3</div>勇敢者游戏2:再战巅峰<p>9579万</p></a></li>
+						<li><a href=""><div class="smallest0">4</div>被时光抓走的人<p>5853万</p></a></li>	
+						<li><a href=""><div class="smallest0">5</div>南方车站的聚会<p>5826万</p></a></li>
+						<li><a href=""><div class="smallest0">6</div>冰雪奇缘2<p>4848万</p></a></li>
+						<li><a href=""><div class="smallest0">7</div>我为你牺牲<p>3688万</p></a></li>
+						<li><a href=""><div class="smallest0">8</div>利刃出鞘<p>2458万</p></a></li>
+					</ul>
+				</div>
+				<div class="small2">
+					<ul class="center">		
+						<li><a href=""><div class="smallest">1</div>冰雪奇缘2<p>3516万</p></a></li>
+						<li><a href=""><div class="smallest">2</div>利刃出鞘<p>1421万</p></a></li>	
+						<li><a href=""><div class="smallest">3</div>极速车王<p>665万</p></a></li>
+						<li><a href=""><div class="smallest0">4</div>皇后与嫂子<p>664万</p></a></li>
+						<li><a href=""><div class="smallest0">5</div>邻里美好的一天<p>520万</p></a></li>
+						<li><a href=""><div class="smallest0">6</div>黑水<p>399万</p></a></li>
+						<li><a href=""><div class="smallest0">7</div>21座桥<p>286万</p></a></li>
+						<li><a href=""><div class="smallest0">8</div>救·水奶爸<p>203万</p></a></li>
+					</ul>
+				</div>
+				<div class="small3">
+					<ul class="right">		
+						<li><a href=""><div class="smallest">1</div>冰雪奇缘2<p>3516万</p></a></li>
+						<li><a href=""><div class="smallest">2</div>利刃出鞘<p>1421万</p></a></li>	
+						<li><a href=""><div class="smallest">3</div>返校<p>665万</p></a></li>
+						<li><a href=""><div class="smallest0">4</div>去年圣诞<p>664万</p></a></li>
+						<li><a href=""><div class="smallest0">5</div>热气球飞行家<p>520万</p></a></li>
+						<li><a href=""><div class="smallest0">6</div>极速车王<p>399万</p></a></li>
+						<li><a href=""><div class="smallest0">7</div>舞女大盗<p>286万</p></a></li>
+						<li><a href=""><div class="smallest0">8</div>倒忌时<p>203万</p></a></li>
+					</ul>
+				</div>
+			</div>
+			<div><a href=""><img src="img/p11.png"></a></div>
+			<div><a href=""><img src="img/p12.png"></a></div>
+		</div>
+	</div>
+
+	<!-- 二个第三块 -->
+	<div class="div0">
+		<div class="div1">
+			<ul class="text">
+				<li class="p1"><img src="img/a15.png">热播推荐</li>
+				<li class="p2">正在热播</li>
+    			<li class="p3">140553</li>
+    			<li class="p2">部</li>
+    			<li class="p4">|</li>
+    			<li class="p5"><a href="">更多></a></li>
+    		</ul>
+		</div>
+		<div class="div2">
+			<p>本周票房榜</p>
+			<ul>
+				<li id="text1">内地</li>
+				<li id="text2">北美</li>
+				<li id="text3">香港</li>
+			</ul>
+		</div>
+		<div class="div3">
+			<ul class="pic">
+				<li class="pic1">
+					<a href=""><img src="img/p13.png">
+					<div class="circle1" id="circle"><div class="triangle"></div></div>
+					<div class="picdiv1">111分钟<p>6.9</p></div>
+					流浪地球</a>
+				</li>
+				<li class="pic2">
+					<a href=""><img src="img/p14.png">
+					<div class="circle2" id="circle"><div class="triangle"></div></div>
+					<div class="picdiv1">135分钟<P>8.4</P></div>
+					毒液:致命守护者</a>
+				</li>
+				<li class="pic3">
+					<a href=""><img src="img/p15.png">
+					<div class="circle3" id="circle"><div class="triangle"></div></div>
+					<div class="picdiv1">155分钟<p>7.9</p></div>
+					星球大战9天行者崛起</a>
+				</li>
+				<li class="pic4">
+					<a href=""><img src="img/p16.png">
+					<div class="circle4" id="circle"><div class="triangle"></div></div>
+					<div class="picdiv1">110分钟<p>8.5</p></div>
+					星际流浪</a>
+				</li>
+				<li class="pic5">
+					<a href=""><img src="img/p17.png">
+					<div class="circle5" id="circle"><div class="triangle"></div></div>
+					<div class="picdiv1">138分钟<p>7.8</p></div>
+					被光抓走的人</a>
+				</li>
+				<li class="pic6">
+					<a href=""><img src="img/p18.png">
+					<div class="circle6" id="circle"><div class="triangle"></div></div>
+					<div class="picdiv1">104分钟<p>7.3</p></div>
+					哥斯拉2怪兽之王</a>
+				</li>
+				<li class="pic7">
+					<a href=""><img src="img/p19.png">
+					<div class="circle7" id="circle"><div class="triangle"></div></div>
+					<div class="picdiv1">137分钟<p>6.3</p></div>
+					阿丽塔战斗天使</a>
+				</li>
+				<li class="pic8">
+					<a href=""><img src="img/p20.png">
+					<div class="circle8" id="circle"><div class="triangle"></div></div>
+					<div class="picdiv1">127分钟<p>7.8</p></div>
+					蜘蛛侠平行宇宙</a>
+				</li>
+				<li class="pic9">
+					<a href=""><img src="img/p21.png">
+					<div class="circle9" id="circle"><div class="triangle"></div></div>
+					<div class="picdiv1">110分钟<p>5.9</p></div>
+					死侍2</a>
+				</li>
+				<li class="pic10">
+					<a href=""><img src="img/p22.png">
+					<div class="circle10" id="circle"><div class="triangle"></div></div>
+					<div class="picdiv1">90分钟<p>3.6</p></div>
+					钢铁飞龙之奥特曼崛起</a>
+				</li>
+			</ul>
+		</div>
+		<div class="div4"><div class="div5" id="div5">
+			<div class="small1" id="small1">
+				<ul class="left">		
+					<li><a href=""><div class="smallest">1</div>误杀<p>21561万</p></a></li>
+					<li><a href=""><div class="smallest">2</div>天·火img>13819万</p></a></li>	
+					<li><a href=""><div class="smallest">3</div>勇敢者游戏2:再战巅峰<p>9579万</p></a></li>
+					<li><a href=""><div class="smallest0">4</div>被时光抓走的人<p>5853万</p></a></li>	
+					<li><a href=""><div class="smallest0">5</div>南方车站的聚会<p>5826万</p></a></li>
+					<li><a href=""><div class="smallest0">6</div>冰雪奇缘2<p>4848万</p></a></li>
+					<li><a href=""><div class="smallest0">7</div>我为你牺牲<p>3688万</p></a></li>
+					<li><a href=""><div class="smallest0">8</div>利刃出鞘<p>2458万</p></a></li>
+					</ul>
+			</div>
+		<div class="small2">
+			<ul class="center">		
+			<li><a href=""><div class="smallest">1</div>冰雪奇缘2<p>3516万</p></a></li>
+			<li><a href=""><div class="smallest">2</div>利刃出鞘<p>1421万</p></a></li>	
+			<li><a href=""><div class="smallest">3</div>极速车王<p>665万</p></a></li>
+			<li><a href=""><div class="smallest0">4</div>皇后与嫂子<p>664万</p></a></li>
+			<li><a href=""><div class="smallest0">5</div>邻里美好的一天<p>520万</p></a></li>
+			<li><a href=""><div class="smallest0">6</div>黑水<p>399万</p></a></li>
+			<li><a href=""><div class="smallest0">7</div>21座桥<p>286万</p></a></li>
+			<li><a href=""><div class="smallest0">8</div>救·水奶爸<p>203万</p></a></li>
+			</ul>
+		</div>
+		<div class="small3">
+			<ul class="right">		
+			<li><a href=""><div class="smallest">1</div>冰雪奇缘2<p>3516万</p></a></li>
+			<li><a href=""><div class="smallest">2</div>利刃出鞘<p>1421万</p></a></li>	
+			<li><a href=""><div class="smallest">3</div>返校<p>665万</p></a></li>
+			<li><a href=""><div class="smallest0">4</div>去年圣诞<p>664万</p></a></li>
+			<li><a href=""><div class="smallest0">5</div>热气球飞行家<p>520万</p></a></li>
+			<li><a href=""><div class="smallest0">6</div>极速车王<p>399万</p></a></li>
+			<li><a href=""><div class="smallest0">7</div>舞女大盗<p>286万</p></a></li>
+			<li><a href=""><div class="smallest0">8</div>倒忌时<p>203万</p></a></li>
+			</ul>
+		</div>
+		</div>
+			<div class="pic1"><a href=""><img src="img/p23.png"></a></div>
+			<div class="pic2"><a href=""><img src="img/p24.png"></a></div>
+		</div>
+	</div>
+
+	<!-- 三个第三块 -->
+	<div class="div0">
+		<div class="div1">
+			<ul class="text">
+				<li class="p1"><img src="img/a15.png">热播推荐</li>
+				<li class="p2">正在热播</li>
+    			<li class="p3">140553</li>
+    			<li class="p2">部</li>
+    			<li class="p4">|</li>
+    			<li class="p5"><a href="">更多></a></li>
+    		</ul>
+		</div>
+		<div class="div2">
+			<p>本周票房榜</p>
+			<ul>
+				<li id="text1">内地</li>
+				<li id="text2">北美</li>
+				<li id="text3">香港</li>
+			</ul>
+		</div>
+		<div class="div3">
+			<ul class="pic">
+				<li class="pic1">
+					<a href=""><img src="img/p25.png">
+					<div class="circle1" id="circle"><div class="triangle"></div></div>
+					<div class="picdiv1">111分钟<p>6.9</p></div>
+					想见你</a>
+				</li>
+				<li class="pic2">
+					<a href=""><img src="img/p26.png">
+					<div class="circle2" id="circle"><div class="triangle"></div></div>
+					<div class="picdiv1">135分钟<P>8.4</P></div>
+					我们与恶的距离</a>
+				</li>
+				<li class="pic3">
+					<a href=""><img src="img/p27.png">
+					<div class="circle3" id="circle"><div class="triangle"></div></div>
+					<div class="picdiv1">155分钟<p>7.9</p></div>
+					我们不能是朋友</a>
+				</li>
+				<li class="pic4">
+					<a href=""><img src="img/p28.png">
+					<div class="circle4" id="circle"><div class="triangle"></div></div>
+					<div class="picdiv1">110分钟<p>8.5</p></div>
+					泡沫之夏</a>
+				</li>
+				<li class="pic5">
+					<a href=""><img src="img/p29.png">
+					<div class="circle5" id="circle"><div class="triangle"></div></div>
+					<div class="picdiv1">138分钟<p>7.8</p></div>
+					我的男孩</a>
+				</li>
+				<li class="pic6">
+					<a href=""><img src="img/p30.png">
+					<div class="circle6" id="circle"><div class="triangle"></div></div>
+					<div class="picdiv1">104分钟<p>7.3</p></div>
+					1006的房客</a>
+				</li>
+				<li class="pic7">
+					<a href=""><img src="img/p31.png">
+					<div class="circle7" id="circle"><div class="triangle"></div></div>
+					<div class="picdiv1">137分钟<p>6.3</p></div>
+					遗失的2分之第一季</a>
+				</li>
+				<li class="pic8">
+					<a href=""><img src="img/p32.png">
+					<div class="circle8" id="circle"><div class="triangle"></div></div>
+					<div class="picdiv1">127分钟<p>7.8</p></div>
+					前男友不是人</a>
+				</li>
+				<li class="pic9">
+					<a href=""><img src="img/p33.png">
+					<div class="circle9" id="circle"><div class="triangle"></div></div>
+					<div class="picdiv1">110分钟<p>5.9</p></div>
+					守着阳光守着你</a>
+				</li>
+				<li class="pic10">
+					<a href=""><img src="img/p34.png">
+					<div class="circle10" id="circle"><div class="triangle"></div></div>
+					<div class="picdiv1">90分钟<p>3.6</p></div>
+					良心无悔</a>
+				</li>
+			</ul>
+		</div>
+		<div class="div4"><div class="div5" id="div5">
+			<div class="small1" id="small1">
+				<ul class="left">		
+					<li><a href=""><div class="smallest">1</div>误杀<p>21561万</p></a></li>
+					<li><a href=""><div class="smallest">2</div>天·火<p>13819万</p></a></li>	
+					<li><a href=""><div class="smallest">3</div>勇敢者游戏2:再战巅峰<p>9579万</p></a></li>
+					<li><a href=""><div class="smallest0">4</div>被时光抓走的人<p>5853万</p></a></li>	
+					<li><a href=""><div class="smallest0">5</div>南方车站的聚会<p>5826万</p></a></li>
+					<li><a href=""><div class="smallest0">6</div>冰雪奇缘2<p>4848万</p></a></li>
+					<li><a href=""><div class="smallest0">7</div>我为你牺牲<p>3688万</p></a></li>
+					<li><a href=""><div class="smallest0">8</div>利刃出鞘<p>2458万</p></a></li>
+					</ul>
+			</div>
+		<div class="small2">
+			<ul class="center">		
+			<li><a href=""><div class="smallest">1</div>冰雪奇缘2<p>3516万</p></a></li>
+			<li><a href=""><div class="smallest">2</div>利刃出鞘<p>1421万</p></a></li>	
+			<li><a href=""><div class="smallest">3</div>极速车王<p>665万</p></a></li>
+			<li><a href=""><div class="smallest0">4</div>皇后与嫂子<p>664万</p></a></li>
+			<li><a href=""><div class="smallest0">5</div>邻里美好的一天<p>520万</p></a></li>
+			<li><a href=""><div class="smallest0">6</div>黑水<p>399万</p></a></li>
+			<li><a href=""><div class="smallest0">7</div>21座桥<p>286万</p></a></li>
+			<li><a href=""><div class="smallest0">8</div>救·水奶爸<p>203万</p></a></li>
+			</ul>
+		</div>
+		<div class="small3">
+			<ul class="right">		
+			<li><a href=""><div class="smallest">1</div>冰雪奇缘2<p>3516万</p></a></li>
+			<li><a href=""><div class="smallest">2</div>利刃出鞘<p>1421万</p></a></li>	
+			<li><a href=""><div class="smallest">3</div>返校<p>665万</p></a></li>
+			<li><a href=""><div class="smallest0">4</div>去年圣诞<p>664万</p></a></li>
+			<li><a href=""><div class="smallest0">5</div>热气球飞行家<p>520万</p></a></li>
+			<li><a href=""><div class="smallest0">6</div>极速车王<p>399万</p></a></li>
+			<li><a href=""><div class="smallest0">7</div>舞女大盗<p>286万</p></a></li>
+			<li><a href=""><div class="smallest0">8</div>倒忌时<p>203万</p></a></li>
+			</ul>
+		</div>
+		</div>
+			<div class="pic1"><a href=""><img src="img/p35.png"></a></div>
+			<div class="pic2"><a href=""><img src="img/p36.png"></a></div>
+		</div>
+	</div>
+    <!-- 第四块 -->
+	<div class="no1">
+		<div class="m1"><p>合作站点</p></div>
+		<div class="m2">
+			<ul>
+				<li>
+					<a href="https://www.1905.com/" target="blank">
+						<img src="images/1905.png">
+					</a>
+				</li>
+				<li>
+					<a href="https://movie.douban.com/" target="blank">
+						<img src="images/douban.png">	
+					</a>
+				</li>
+				<li>
+					<a href="https://www.iqiyi.com/" target="blank">
+						<img src="images/iqyi.png">
+					</a>
+				</li>
+				<li>
+					<a href="http://www.le.com/" target="blank">
+						<img src="images/leshi.png">
+					</a>
+				</li>
+				<li>
+					<a href="http://www.pptv.com/" target="blank">
+						<img src="images/pp.png">
+					</a>
+				</li>
+				<li>
+					<a href="https://tv.sohu.com/" target="blank">
+						<img src="images/souhu.png">
+					</a>
+				</li>
+				<li>
+					<a href="https://v.qq.com/" target="blank">
+						<img src="images/tengxun.png">
+					</a>
+				</li>
+				<li>
+					<a href="https://www.tudou.com/" target="blank">
+						<img src="images/tudou.png">
+					</a>
+				</li>
+				<li>
+					<a href="http://www.kankan.com/" target="blank">
+						<img src="images/xiangchao.png">
+					</a>
+				</li>
+				<li>
+					<a href="https://www.youku.com/" target="blank">
+						<img src="images/youku.png">
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="m3">
+			<p class="b1">首页   |   网站介绍   |   电影   |   电视剧   |   综艺   |   动漫   </p>
+			<p class="b2">反盗版和反盗链权限声明 © 2019-2020 买猜商城有限公司 版权所有</p>
+		</div>
+	</div>
+</body>
+<!-- header对应的js -->
+<script>
+	var btn = document.getElementById("btn");
+	var content = document.getElementById("content");
+	btn.onclick = function(){
+		if(content.value == "烟火里的尘埃" )
+			window.open("player/player.html");	//在新窗口跳转到指定页面
+		else if(content.value == "")
+			alert("输入错误，请重新输入")
+	}
+	var firstpage = document.getElementById("firstpage");
+	var movie = document.getElementById("movie");
+	var variety = document.getElementById("variety");
+	firstpage.onclick = function(){
+		window.open("firstpage/firstpage.html");
+	}
+	movie.onclick = function(){
+		window.open("movie.html");
+	}
+	variety.onclick = function(){
+		window.open("variety/variety.html");
+	}
+</script>
+<!-- 第一块对应的js -->
+<script>
+	var slider=document.getElementById("slider").children;
+	var navList=document.getElementById("navList").children;
+	var left=document.getElementById("left");
+	var right=document.getElementById("right");
+	var timer;
+	var imgIndex=0;
+	var index;
+
+	navList[0].style.border="3px solid white";  //弥补第一张导航图没边框的不足
+	timer=setInterval(next,2000);
+
+	function next(){
+		for(var i=0;i<navList.length;i++){
+			navList[i].style.border="none";
+		}
+		navList[(imgIndex+navList.length+1)%navList.length].style.border="3px solid white";
+		slider[(imgIndex+slider.length)%slider.length].style.display="none";
+		animate(slider[(imgIndex+slider.length)%slider.length],{opacity:0});
+		//animate变化太快了，得慢一些效果才更好
+		slider[(imgIndex+1+slider.length)%slider.length].style.display="block";
+		animate(slider[(imgIndex+1+slider.length)%slider.length],{opacity:100});
+		
+		imgIndex=(imgIndex+slider.length+1)%slider.length;
+		console.log(imgIndex);
+	}
+
+	function pre(){
+		slider[(imgIndex+slider.length)%slider.length].style.display="none";
+		animate(slider[(imgIndex+slider.length)%slider.length],{opacity:0});
+		slider[(imgIndex+slider.length-1)%slider.length].style.display="block";
+		animate(slider[(imgIndex+slider.length-1)%slider.length],{opacity:100});
+		for(var i=0;i<navList.length;i++){
+			navList[i].style.border="none";
+		}
+		navList[(imgIndex+navList.length-1)%navList.length].style.border="3px solid white";
+
+		imgIndex=(imgIndex+slider.length-1)%slider.length;
+		console.log(imgIndex);
+	}
+
+
+//只对第一个起作用？因为imgIndex没有和图片索引建立联系，只规定了其初始值
+ 	for(var i=0;i<slider.length;++i){
+    	//锁定对象集合中的对象
+        //slider[i].index = i;
+        navList[i].index=i;
+  //       slider[i].onmouseover=function(){
+		// 	clearInterval(timer);
+		// 	console.log("stop!");
+  //       }
+  //       slider[i].onmouseout=function(){
+		// 	timer=setInterval(next,2000);
+		// 	console.log("start!");
+		// }
+		navList[i].onmouseover=function(){
+			clearInterval(timer);
+			for(var i=0;i<navList.length;i++){
+			navList[i].style.border="none";
+			}
+			//注意这里不要用navList[i]
+			this.style.border="3px solid white";
+			for(var i=0;i<navList.length;i++){
+				slider[i].style.display="none";
+				animate(slider[i],{opacity:0});
+			}	
+			//怎么实现去之前的图？
+			//和上次作业中的数字导航一样，先都去掉再加
+			imgIndex=this.index;   //让导航和大图对应
+			slider[imgIndex].style.display="block";
+			animate(slider[imgIndex],{opacity:100});
+
+			timer=setInterval(next,2000);
+		}
+    }
+	right.onclick=function(){	
+		clearInterval(timer);
+		next();
+		timer=setInterval(next,2000);
+		//避免点击的时候和next函数冲突
+	}
+	left.onclick=function(){	
+		clearInterval(timer);
+		pre();
+		timer=setInterval(next,2000);
+	}
+</script>
+<!-- 第三块对应的js -->
+<script type="text/javascript">
+	var index = 0;
+	var text1 = document.getElementById("text1");
+	var text2 = document.getElementById("text2");
+	var text3 = document.getElementById("text3");
+	var small1 =document.getElementById("small1");
+	var div5 =document.getElementById("div5");
+
+	text1.onmouseover = function(){
+		index=0;
+		animate(div5,{left:-300*index},function(){
+     	});
+	}
+    text2.onmouseover = function(){
+		index=1;
+		animate(div5,{left:-300*index},function(){
+     	});
+	}
+	text3.onmouseover = function(){
+		index=2;
+		animate(div5,{left:-300*index},function(){
+     	});
+	}
+</script>
+</html>
